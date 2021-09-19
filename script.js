@@ -3,7 +3,6 @@
 var myLight = document.getElementById("light");
 const toggleBtn = document.getElementById('toggle');
 var changeSentence = document.getElementsByTagName("h1")[0];
-
 let lightState = 'off';
 
 // function myFunction1() {

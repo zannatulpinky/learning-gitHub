@@ -1,10 +1,10 @@
-*, *::before, *::after* {
+*{
     margin: 0px;
     padding: 0px; 
 } 
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: hsl(0, 0%, 100%);
 }
 
 h1{
@@ -33,16 +33,4 @@ padding-top: 100px;
    margin-left: 350px;
    display: block;
    margin-top: 2px;
-} */
-/* #btn2 {
-    position: relative;
-}
-#btn2::after{
-    content: '';
-    top: 50px;
-    right: 100px;
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background: #e3e3e3;
 } */

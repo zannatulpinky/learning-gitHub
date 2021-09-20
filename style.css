@@ -2,21 +2,23 @@
     margin: 0px;
     padding: 0px; 
 } 
-
+/**/
 body{
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(194, 66%, 81%);
 }
 
 h1{
     color: #db8fa8;
     padding-top: 30px;
 }
-
+/**/
 section {
     width: 400px;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
     padding: 100px;
+    border: solid;
+    background-color: hsl(0, 0%, 100%);
 }
 
 /* header {

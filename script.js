@@ -6,13 +6,13 @@ var changeHeadline = document.getElementsByTagName("h1")[0];
 let lightState = 'off';
 
 function turnOn(){
-    lightImage.src="lightOff.jpg";
+    lightImage.src="images/lightOff.jpg";
     changeHeadline.innerHTML = "On the light";
     changeHeadline.setAttribute("style","color:blue")
 }
 
 function turnOff() {
-    lightImage.src="lightOn.jpg";
+    lightImage.src="images/lightOn.jpg";
     changeHeadline.innerHTML = "Off the light";
     changeHeadline.setAttribute("style","color:red")
 }

@@ -8,13 +8,13 @@ let lightState = 'off';
 function turnOn(){
     lightImage.src="lightOff.jpg";
     changeHeadline.innerHTML = "On the light";
-    changeSentence.setAttribute("style","color:blue")
+    changeHeadline.setAttribute("style","color:blue")
 }
 
 function turnOff() {
     lightImage.src="lightOn.jpg";
     changeHeadline.innerHTML = "Off the light";
-    changeSentence.setAttribute("style","color:red")
+    changeHeadline.setAttribute("style","color:red")
 }
 
 // myBtn1.addEventListener("click",turnOn);

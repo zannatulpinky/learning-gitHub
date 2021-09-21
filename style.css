@@ -4,21 +4,71 @@
 } 
 /**/
 body{
-    background-color: hsl(194, 66%, 81%);
+    background-image: url('images/myBackground.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
 
-h1{
-    color: #db8fa8;
-    padding-top: 30px;
+nav{
+background-color: rgb(1, 1, 19);
+    text-align: center; 
+    padding: 20px;  
+    display: flex;
+    justify-content: flex-end;
 }
-/**/
-section {
-    width: 400px;
-    margin: auto;
+
+nav li {
+    display: inline;  
+    padding: 20px;
+  }
+
+nav a{
+      color: #fff;
+  }
+
+  nav a:hover{
+      color: rgb(0, 195, 255);
+  }
+
+#about h2{
+    color: rgb(86, 204, 240);
     text-align: center;
-    padding: 100px;
+    padding: 50px; 
+}
+
+.my-text {
+   color: #fff;
+   display: flex;
+    padding: 30px;
+    font-size: large;
+}
+
+.my-img {
+    border: solid black 1px;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    display: inline;
+}
+
+/**/
+#mywork {
+    width: 800px;
+    margin: 180px auto;
+    text-align: center;
+    padding: 10px;
     border: solid;
     background-color: hsl(0, 0%, 100%);
+}
+#mywork h3{
+    color: #db8fa8;
+    padding: 2px
+}
+
+#contact {
+    background-color: rgb(1, 1, 12);
+    height:100px;
+    color: #fff;
 }
 
 /* header {

@@ -1,6 +1,6 @@
 // var myBtn1 = document.getElementById("btn1");
 // var myBtn2 = document.getElementById("btn2");
-var changeHeadline = document.getElementsByTagName("h1")[0];
+var changeHeadline = document.getElementsByTagName("h3")[0];
 var lightImage = document.getElementById("light");
 const toggleBtn = document.getElementById('toggle');
 let lightState = 'off';

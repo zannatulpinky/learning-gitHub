@@ -2,15 +2,17 @@
     margin: 0px;
     padding: 0px; 
 } 
-/**/
+
+/*Main body part*/
 body{
     background-image: url('images/myBackground.jpg');
     background-repeat: no-repeat; 
     background-size: cover;
 }
 
+/*navbar section*/
 nav{
-background-color: rgb(1, 1, 19);
+    background-color: rgb(1, 1, 19);
     text-align: center; 
     padding: 20px;  
     display: flex;
@@ -26,11 +28,12 @@ nav a{
       color: #fff;
   }
 
-  nav a:hover{
+  nav a:hover {
       color: rgb(0, 195, 255);
   }
 
-#about h2{
+/*About Me section*/
+#about h2 {
     color: rgb(86, 204, 240);
     text-align: center;
     padding: 50px; 
@@ -38,9 +41,9 @@ nav a{
 
 .my-text {
    color: #fff;
-   display: flex;
     padding: 30px;
-    font-size: large;
+    font-size: 20px;
+    display: flex;
 }
 
 .my-img {
@@ -48,10 +51,9 @@ nav a{
     margin: 10px;
     width: 200px;
     height: auto;
-    display: inline;
 }
 
-/**/
+/*My work section*/
 #mywork {
     width: 800px;
     margin: 180px auto;
@@ -61,15 +63,24 @@ nav a{
     background-color: hsl(0, 0%, 100%);
 }
 
-#mywork h2{
-    color: rgb(78, 139, 230);
+#mywork h2 {
+    color: rgb(77, 142, 240);
 }
 
-#mywork h3{
+#mywork h3 {
     color: #db8fa8;
     padding: 10px
 }
 
+#toggle {
+    color: rgb(238, 228, 228);
+    background-color: rgb(10, 1, 1);
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/*Footer section*/
 #contact {
     background-color: rgb(1, 1, 12);
     height:100px;

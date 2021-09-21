@@ -60,9 +60,14 @@ nav a{
     border: solid;
     background-color: hsl(0, 0%, 100%);
 }
+
+#mywork h2{
+    color: rgb(78, 139, 230);
+}
+
 #mywork h3{
     color: #db8fa8;
-    padding: 2px
+    padding: 10px
 }
 
 #contact {
